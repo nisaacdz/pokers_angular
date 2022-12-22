@@ -1,0 +1,51 @@
+.options {
+    display: flex;
+    padding: 15px;
+    gap: 15px;
+    justify-content: left;
+    align-items: center;
+    background-color: bisque;
+    width: auto;
+}
+
+.panel {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.playbox {
+    display: flex;
+    flex-wrap: wrap;
+    border: 10px coral solid;
+    border-radius: 20px;
+    background-color: bisque;
+    gap: 30px 30px;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+    position: relative;
+    min-width: 200px;
+    min-height: 200px;
+}
+
+.center {
+    display: flex;
+    flex-wrap: nowrap;
+    background-color: cornsilk;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    gap: 20px;
+}
+
+.btns {
+    transition-duration: 0.5s;
+    background-color: coral;
+    border: 2px black solid;
+    border-radius: 8px;
+    height: 40px;
+    width: 120px;
+    font-size: 18px;
+    font-weight: bolder;
+}

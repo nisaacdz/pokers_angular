@@ -1,0 +1,23 @@
+.outer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: coral;
+    border-radius: 30%;
+    height: 200px;
+    width: 200px;
+}
+
+.innertop {
+    height: 20px;
+}
+
+.innerdown {
+    display: flex;
+    flex-wrap: nowrap;
+    width: 180px;
+    height: 120px;
+    gap: 2px;
+    align-items: center;
+    justify-content: center;
+}

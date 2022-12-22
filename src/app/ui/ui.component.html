@@ -1,0 +1,20 @@
+<div class="options">
+    <button class="btns" (click)="home()">Home</button>
+    <button class="btns" (click)="newGame(3)">New Game</button>
+    <button class="btns" (click)="addPlayer()">Add Player</button>
+    <button class="btns" (click)="distributeCards()">Distribute</button>
+    <button class="btns" (click)="revealCard()">Reveal</button>
+</div>
+
+<div class="center">
+    <div *ngFor="let card of game.center">
+        <app-piece [card]="card" [showCards]="true"></app-piece>
+    </div>
+</div>
+<div class="panel">
+    <div class="playbox">
+        <app-gamer *ngFor="let player of game.players; let i = index" [player]="player">
+            <h3>Player {{i + 1}}</h3>
+        </app-gamer>
+    </div>
+</div>

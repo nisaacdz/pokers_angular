@@ -1,0 +1,11 @@
+.paper {
+    display: flex;
+    background-color: yellow;
+    width: 75px;
+    height: 110px;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    border: 2px black solid;
+    border-radius: 10px;
+}
